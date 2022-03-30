@@ -1,0 +1,159 @@
+body{
+    background-color: aqua;
+}
+/*HEADER*/
+header{
+    display:flex;
+    align-items:stretch;
+    background-color:rgb(226, 223, 221);
+}
+
+.logo{
+    flex-grow: 4;
+    margin: 10px;
+    padding: 20px;
+}
+
+.nav-inicio{
+    flex-grow: 3;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-registro{
+    flex-grow: 3;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.home{
+    margin: auto;
+    background-color:white;
+    height:30%;
+    width: 50%;
+    padding-top:10px;
+    
+}
+.home:hover{
+    background-color: #e67b17;
+    color:white;
+    border: 2px solid #3a4e7a;
+}
+.home a{
+    color:black;
+    font-size:24px;
+    text-decoration: none;
+}
+
+.registro{
+    margin: auto;
+    background-color:white;
+    height:30%;
+    width: 50%;
+    padding-top:10px;
+    
+}
+.registro:hover{
+    background-color: #e67b17;
+    color:white;
+    border: 2px solid #3a4e7a;
+}
+.registro a{
+    color:black;
+    font-size:24px;
+    text-decoration: none;
+}
+/*HEADER*/
+
+/*MAIN*/
+
+.slider{
+    margin: auto;
+    width:80%;
+    height:300px;
+    background-color:gray;
+}
+
+/*Contenedor Peliculas*/
+.peliculas{
+    display: flex;
+    align-items: stretch;
+    margin-top: 2%;
+    padding:30px;
+    height:450px;
+}
+
+.card-movie {
+    flex-grow: 1;
+    width:150px;
+    height:300px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.card-movie img{
+    width:100%;
+    background-color: aliceblue;
+    border-radius:0px 0px 10px 10px;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-movie2{
+    flex-grow: 1;
+    width:126px;
+    height:175px;
+    background-color: beige;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+.card-movie3{
+    flex-grow: 1;
+    width:126px;
+    height:175px;
+    background-color: beige;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+.card-movie4{
+    flex-grow: 1;
+    width:126px;
+    height:175px;
+    background-color: beige;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+.card-movie5{
+    flex-grow: 1;
+    width:126px;
+    height:175px;
+    background-color: beige;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+.card-movie6{
+    flex-grow: 1;
+    width:126px;
+    height:175px;
+    background-color: beige;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+.card-movie7{
+    flex-grow: 1;
+    width:126px;
+    height:175px;
+    background-color: beige;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+}
