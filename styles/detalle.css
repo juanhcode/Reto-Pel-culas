@@ -4,17 +4,22 @@ body{
 }
 *{
     font-family:Nunito;
+    margin:0px;
+    padding:0px;
 }
+
 /*HEADER*/
 header{
     display:flex;
     align-items:stretch;
     background-color:rgb(102, 12, 102);
+    height:120px;
 }
 
 .logo{
     flex-grow: 4;
     margin: 10px;
+    margin-top: -10px;
     padding: 20px;
 }
 
@@ -34,14 +39,14 @@ header{
 
 .home{
     margin: auto;
-    background-color:white;
-    height:30%;
+    background-color:rgb(102, 12, 102);
+    height:60%;
     width: 50%;
     padding-top:10px;
     
 }
 .home:hover{
-    background-color: #e67b17;
+    background-color: rgb(85, 50, 85);
     color:white;
     border: 2px solid #3a4e7a;
 }
@@ -53,22 +58,23 @@ header{
 
 .registro{
     margin: auto;
-    background-color:white;
-    height:30%;
+    background-color:rgb(102, 12, 102);
+    height:60%;
     width: 50%;
     padding-top:10px;
     
 }
 .registro:hover{
-    background-color: #e67b17;
+    background-color: rgb(85, 50, 85);
     color:white;
-    border: 2px solid #3a4e7a;
+    border: 1px solid white;
 }
 .registro a{
     color:black;
     font-size:24px;
     text-decoration: none;
 }
+/*HEADER*/
 
 /*DETALLE*/
 
@@ -77,13 +83,14 @@ header{
     margin-top: 4%;
     width:30%;
     height:700px;
-    background-color:gray;
+    background-color:rgb(39, 10, 39);
     text-align:center;
     border-radius:30px;
     padding:5px;
 }
 h2{
     padding-top:10px;
+    color:white;
 }
 .img-responsive{
     width:50%;
@@ -93,4 +100,5 @@ h2{
 p{
     margin-left: 1%;
     text-align:left;
+    color:white;
 }
