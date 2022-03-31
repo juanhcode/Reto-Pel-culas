@@ -5,7 +5,7 @@ export const showMovie = (array, container) =>{
         `
         <div class="card-movie">
                 <p>${name}</p>
-                <img src="${imagen}" alt="" id="${id}">
+                <img src="${imagen}" alt="" id="${id}" class="img-movie">
         </div>
         `;
     })

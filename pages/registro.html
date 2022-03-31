@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/registro.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="/assets/logo.png" alt="">
+        </div>
+        <div class="nav-inicio">
+            <nav class="home">
+                <a href="/index.html">Inicio</a>
+            </nav>
+        </div>
+        <div class="nav-registro">
+            <nav class="registro">
+                <a href="./pages/registro.html">Registro</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <br>
+        <br>
+        <div class="formulario">
+            <h1>Formulario de registro</h1>
+            <hr>
+            <form action="">
+                <br>
+                <div class="nombre">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="idNombre">
+                </div>
+                <br>
+                <div class="apellido">
+                    <label for="idApellido">Apellido:</label>
+                <input type="text" id="idApellido">
+                </div>
+                <br>
+                <div class="telefono">
+                    <label for="idTeléfono">Teléfono:</label>
+                    <input type="text" id="idTeléfono">
+                </div>
+                <br>
+                <div class="direccion">
+                    <label for="idDireccion">Dirección:</label>
+                    <input type="text" id="idDireccion">
+                </div>
+                <br>
+                <div class="observacion">
+                    <label for="">Observaciones:</label>
+                <input type="text" class="observacionIn">
+                </div>
+                <br>
+                <input type="submit" class="btn-enviar">
+            </form>
+        </div>
+    </main>
+    <script src="/scripts/registro.js"></script>
 </body>
 </html>

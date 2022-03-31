@@ -6,7 +6,7 @@ export const movies = [{
     {
         "id": 2,
         "name": "El conjuro 2",
-        "imagen": "https://i.ytimg.com/vi/cuDBjj_Gs0M/maxresdefault.jpg",
+        "imagen": "https://mx.web.img3.acsta.net/pictures/17/08/07/07/27/346398.jpg",
     },
     {
         "id": 3,
