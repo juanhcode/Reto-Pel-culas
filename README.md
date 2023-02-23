@@ -16,8 +16,7 @@
 
 ## Description
 
-Campus virtual Universitario -.f.gh.fgfgfjkgkfgfkgkjsfjsnfjsf
-fskfsjkfsf
+It is a platform where you can watch film and television productions.
 
 ## Stack
 <div>
